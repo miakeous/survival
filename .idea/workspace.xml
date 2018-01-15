@@ -19,8 +19,8 @@
       <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="615" column="66" lean-forward="false" selection-start-line="615" selection-start-column="66" selection-end-line="615" selection-end-column="66" />
+            <state relative-caret-position="181">
+              <caret line="611" column="69" lean-forward="false" selection-start-line="611" selection-start-column="69" selection-end-line="611" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -46,8 +46,8 @@
       <file leaf-file-name="TD3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TD3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -169,12 +169,12 @@
       <workItem from="1515505919853" duration="14492000" />
       <workItem from="1515935249674" duration="7328000" />
       <workItem from="1516015139501" duration="5441000" />
-      <workItem from="1516033275671" duration="2004000" />
+      <workItem from="1516033275671" duration="6090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49584000" />
+    <option name="totallyTimeSpent" value="53670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -385,9 +385,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cible.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tombe1.js">
@@ -398,26 +401,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/cible.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TD3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="615" column="66" lean-forward="false" selection-start-line="615" selection-start-column="66" selection-end-line="615" selection-end-column="66" />
+        <state relative-caret-position="181">
+          <caret line="611" column="69" lean-forward="false" selection-start-line="611" selection-start-column="69" selection-end-line="611" selection-end-column="69" />
           <folding />
         </state>
       </provider>

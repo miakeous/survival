@@ -609,18 +609,25 @@ var verifie = function(){
 
 /** On recupere la position du click sur le canvas et on adapte a en fonction de la taille de l'ecran pour toujours avoir la position dans le canvas**/
 var getClickPosition = function (e) {
-
+    var rect = document.getElementById("cv").getBoundingClientRect();
     xposition = e.clientX + document.body.scrollLeft
         + document.documentElement.scrollLeft -((getWidth()-600)/2);
-    yposition = e.clientY + document.body.scrollTop
-        + document.documentElement.scrollTop-((getHeight()-800)/2);
+    yposition = (e.clientY + rect.top +document.documentElement.scrollTop *2)-115;
     play()
-    console.log("X : " + document.body.scrollLeft + document.documentElement.scrollLeft );
-    console.log("Y : " + document.documentElement.scrollLeft  );
+    console.log("X : " + e.clientX );
+    console.log("Y : " + e.clientY  );
+    console.log("X : " + xposition );
+    console.log("Y : " + yposition  );
+
+    console.log("Barre de Scroll"+ document.getElementById("cv").scrollTop);
+    console.log(e.clientY + rect.top);
+    console.log("largeur : " + getWidth());
+    console.log("Longueur : "+ getHeight());
+    console.log((e.clientY + rect.top +document.documentElement.scrollTop *2)-115)
     verifie(xposition,yposition)
 
 }
-
+document.getElementById("cv").scrollTop;
 /** on recupere la largeur de l'ecran (browser ouvert **/
 function getWidth() {
     return Math.max(
