@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b1f86d6-7dfc-470d-8c33-a2ed47dd6803" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grosZombie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pikachu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/terre.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TD3.html" afterPath="$PROJECT_DIR$/TD3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game.js" afterPath="$PROJECT_DIR$/game.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="736" column="42" lean-forward="true" selection-start-line="736" selection-start-column="42" selection-end-line="736" selection-end-column="42" />
+            <state relative-caret-position="1065">
+              <caret line="823" column="8" lean-forward="false" selection-start-line="823" selection-start-column="8" selection-end-line="823" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -50,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TD3.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TD3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TD3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="78" lean-forward="true" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+            <state relative-caret-position="136">
+              <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -176,12 +169,12 @@
       <workItem from="1515505919853" duration="14492000" />
       <workItem from="1515935249674" duration="7328000" />
       <workItem from="1516015139501" duration="5441000" />
-      <workItem from="1516033275671" duration="196000" />
+      <workItem from="1516033275671" duration="1399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47776000" />
+    <option name="totallyTimeSpent" value="48979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -413,18 +406,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game.js">
+    <entry file="file://$PROJECT_DIR$/TD3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="736" column="42" lean-forward="true" selection-start-line="736" selection-start-column="42" selection-end-line="736" selection-end-column="42" />
+        <state relative-caret-position="136">
+          <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TD3.html">
+    <entry file="file://$PROJECT_DIR$/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="78" lean-forward="true" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+        <state relative-caret-position="1065">
+          <caret line="823" column="8" lean-forward="false" selection-start-line="823" selection-start-column="8" selection-end-line="823" selection-end-column="8" />
           <folding />
         </state>
       </provider>

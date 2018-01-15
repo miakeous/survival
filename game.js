@@ -615,8 +615,8 @@ var getClickPosition = function (e) {
     yposition = e.clientY + document.body.scrollTop
         + document.documentElement.scrollTop-((getHeight()-800)/2)+22.5;
     play()
-    //console.log("X : " + xposition);
-    //console.log("Y : " + yposition)
+    console.log("X : " + document.body.scrollLeft + document.documentElement.scrollLeft );
+    console.log("Y : " + document.documentElement.scrollLeft  );
     verifie(xposition,yposition)
 
 }
@@ -701,7 +701,7 @@ function update(ts) {
 
 
             // On gere l'apparition des zombies en fonctions du timer
-            if( ts <30000 && timer.msec < 20){
+            if( ts > 1000 && ts <30000 && timer.msec < 20){
                 if(timer.sec%2 == 0){
                     ennemis.addMechant(new zombie(xc, yc));
                     tombes.addMechant(new tombe(xc+10,yc-60));
@@ -786,6 +786,8 @@ function update(ts) {
                     if(ennemis.isDead()==true){
                         console.log("on est la les enfants");
                         win = true;
+                        ambiance.pause();
+                        bosstime.pause();
                     }
 
             }
@@ -818,7 +820,6 @@ function mainLoop(ts) {
     if(pause == false){
         update(ts);
         draw(ts);
-
     }
     else{
         ctx.drawImage(pauses, 0, 0);
@@ -855,8 +856,8 @@ damage.src = "zombie.png";
 var timer = {"min" : 0 , "sec" : 0, "msec" : 0};
 var timer2 = null;
 var pop = true;
-ennemis.addMechant(new zombie(250,100));
-tombes.addMechant(new tombe(250, 90));
+//ennemis.addMechant(new zombie(250,100));
+//tombes.addMechant(new tombe(250, 90));
 var pauses = new Image();
 pauses.src = "pause.png"
 
