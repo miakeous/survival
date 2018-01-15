@@ -1,8 +1,22 @@
 body {
     background-color: #00264d;
+    background-image:url(08.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #cv {
     display: block;
     margin : 50px auto;
+
 }
+#texteJQ{
+
+    height: 100%;
+
+}
+#cv{
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=75397), auto;
+}
+
