@@ -613,7 +613,7 @@ var getClickPosition = function (e) {
     xposition = e.clientX + document.body.scrollLeft
         + document.documentElement.scrollLeft -((getWidth()-600)/2);
     yposition = e.clientY + document.body.scrollTop
-        + document.documentElement.scrollTop-((getHeight()-800)/2)+22.5;
+        + document.documentElement.scrollTop-((getHeight()-800)/2);
     play()
     console.log("X : " + document.body.scrollLeft + document.documentElement.scrollLeft );
     console.log("Y : " + document.documentElement.scrollLeft  );
